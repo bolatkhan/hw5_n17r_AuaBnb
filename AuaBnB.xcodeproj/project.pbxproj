@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2128B078AF7255D8D3D39C8C /* Pods_AuaBnB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67E68B0F8C5C76F365625A7 /* Pods_AuaBnB.framework */; };
+		CE47DD231D0FF0FF00AF1DF4 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47DD221D0FF0FF00AF1DF4 /* City.swift */; };
+		CE47DD251D0FF23F00AF1DF4 /* Hata.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47DD241D0FF23F00AF1DF4 /* Hata.swift */; };
+		CE47DD271D10294200AF1DF4 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47DD261D10294200AF1DF4 /* detailsViewController.swift */; };
+		CEF8E8691D0FC774008C456F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8E8681D0FC774008C456F /* AppDelegate.swift */; };
+		CEF8E86E1D0FC774008C456F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF8E86C1D0FC774008C456F /* Main.storyboard */; };
+		CEF8E8701D0FC774008C456F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF8E86F1D0FC774008C456F /* Assets.xcassets */; };
+		CEF8E8731D0FC774008C456F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF8E8711D0FC774008C456F /* LaunchScreen.storyboard */; };
+		CEF8E87F1D0FCAD5008C456F /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8E87E1D0FCAD5008C456F /* CityTableViewController.swift */; };
+		CEF8E8811D0FCBB1008C456F /* HataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8E8801D0FCBB1008C456F /* HataTableViewController.swift */; };
+		CEF8E8831D0FD1F5008C456F /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8E8821D0FD1F5008C456F /* CityTableViewCell.swift */; };
+		CEF8E8851D0FD213008C456F /* HataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8E8841D0FD213008C456F /* HataTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A7317E2BEA629AAA2A37B95 /* Pods-AuaBnB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuaBnB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuaBnB/Pods-AuaBnB.debug.xcconfig"; sourceTree = "<group>"; };
+		C67E68B0F8C5C76F365625A7 /* Pods_AuaBnB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuaBnB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE47DD221D0FF0FF00AF1DF4 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		CE47DD241D0FF23F00AF1DF4 /* Hata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hata.swift; sourceTree = "<group>"; };
+		CE47DD261D10294200AF1DF4 /* detailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
+		CEF8E8651D0FC774008C456F /* AuaBnB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuaBnB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF8E8681D0FC774008C456F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF8E86D1D0FC774008C456F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF8E86F1D0FC774008C456F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF8E8721D0FC774008C456F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF8E8741D0FC774008C456F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF8E87E1D0FCAD5008C456F /* CityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
+		CEF8E8801D0FCBB1008C456F /* HataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HataTableViewController.swift; sourceTree = "<group>"; };
+		CEF8E8821D0FD1F5008C456F /* CityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		CEF8E8841D0FD213008C456F /* HataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HataTableViewCell.swift; sourceTree = "<group>"; };
+		E3A2E92835A1B295D42191DA /* Pods-AuaBnB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuaBnB.release.xcconfig"; path = "Pods/Target Support Files/Pods-AuaBnB/Pods-AuaBnB.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF8E8621D0FC774008C456F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2128B078AF7255D8D3D39C8C /* Pods_AuaBnB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF8E85C1D0FC774008C456F = {
+			isa = PBXGroup;
+			children = (
+				CEF8E8671D0FC774008C456F /* AuaBnB */,
+				CEF8E8661D0FC774008C456F /* Products */,
+				F9B0DA928736BD8ACEC114E1 /* Pods */,
+				EE6E4071F9A1C7FAE664E738 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF8E8661D0FC774008C456F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF8E8651D0FC774008C456F /* AuaBnB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF8E8671D0FC774008C456F /* AuaBnB */ = {
+			isa = PBXGroup;
+			children = (
+				CEF8E87D1D0FCA6D008C456F /* viewController */,
+				CEF8E87C1D0FCA5F008C456F /* view */,
+				CEF8E87B1D0FCA56008C456F /* model */,
+				CEF8E87A1D0FCA33008C456F /* sup files */,
+				CEF8E86C1D0FC774008C456F /* Main.storyboard */,
+			);
+			path = AuaBnB;
+			sourceTree = "<group>";
+		};
+		CEF8E87A1D0FCA33008C456F /* sup files */ = {
+			isa = PBXGroup;
+			children = (
+				CEF8E8681D0FC774008C456F /* AppDelegate.swift */,
+				CEF8E86F1D0FC774008C456F /* Assets.xcassets */,
+				CEF8E8711D0FC774008C456F /* LaunchScreen.storyboard */,
+				CEF8E8741D0FC774008C456F /* Info.plist */,
+			);
+			name = "sup files";
+			sourceTree = "<group>";
+		};
+		CEF8E87B1D0FCA56008C456F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CE47DD221D0FF0FF00AF1DF4 /* City.swift */,
+				CE47DD241D0FF23F00AF1DF4 /* Hata.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		CEF8E87C1D0FCA5F008C456F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CEF8E8821D0FD1F5008C456F /* CityTableViewCell.swift */,
+				CEF8E8841D0FD213008C456F /* HataTableViewCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		CEF8E87D1D0FCA6D008C456F /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEF8E87E1D0FCAD5008C456F /* CityTableViewController.swift */,
+				CEF8E8801D0FCBB1008C456F /* HataTableViewController.swift */,
+				CE47DD261D10294200AF1DF4 /* detailsViewController.swift */,
+			);
+			name = viewController;
+			sourceTree = "<group>";
+		};
+		EE6E4071F9A1C7FAE664E738 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C67E68B0F8C5C76F365625A7 /* Pods_AuaBnB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9B0DA928736BD8ACEC114E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A7317E2BEA629AAA2A37B95 /* Pods-AuaBnB.debug.xcconfig */,
+				E3A2E92835A1B295D42191DA /* Pods-AuaBnB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF8E8641D0FC774008C456F /* AuaBnB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF8E8771D0FC774008C456F /* Build configuration list for PBXNativeTarget "AuaBnB" */;
+			buildPhases = (
+				30F4BC47E01CF54479B91C88 /* [CP] Check Pods Manifest.lock */,
+				CEF8E8611D0FC774008C456F /* Sources */,
+				CEF8E8621D0FC774008C456F /* Frameworks */,
+				CEF8E8631D0FC774008C456F /* Resources */,
+				6FA74220CFEA3C0FB2E9DFF9 /* [CP] Embed Pods Frameworks */,
+				6BD4718A7216367D08B87D69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuaBnB;
+			productName = AuaBnB;
+			productReference = CEF8E8651D0FC774008C456F /* AuaBnB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF8E85D1D0FC774008C456F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Roborzoid;
+				TargetAttributes = {
+					CEF8E8641D0FC774008C456F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CEF8E8601D0FC774008C456F /* Build configuration list for PBXProject "AuaBnB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF8E85C1D0FC774008C456F;
+			productRefGroup = CEF8E8661D0FC774008C456F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF8E8641D0FC774008C456F /* AuaBnB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF8E8631D0FC774008C456F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF8E8731D0FC774008C456F /* LaunchScreen.storyboard in Resources */,
+				CEF8E8701D0FC774008C456F /* Assets.xcassets in Resources */,
+				CEF8E86E1D0FC774008C456F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30F4BC47E01CF54479B91C88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BD4718A7216367D08B87D69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AuaBnB/Pods-AuaBnB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FA74220CFEA3C0FB2E9DFF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AuaBnB/Pods-AuaBnB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF8E8611D0FC774008C456F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF8E87F1D0FCAD5008C456F /* CityTableViewController.swift in Sources */,
+				CEF8E8811D0FCBB1008C456F /* HataTableViewController.swift in Sources */,
+				CE47DD231D0FF0FF00AF1DF4 /* City.swift in Sources */,
+				CE47DD271D10294200AF1DF4 /* detailsViewController.swift in Sources */,
+				CEF8E8831D0FD1F5008C456F /* CityTableViewCell.swift in Sources */,
+				CEF8E8851D0FD213008C456F /* HataTableViewCell.swift in Sources */,
+				CE47DD251D0FF23F00AF1DF4 /* Hata.swift in Sources */,
+				CEF8E8691D0FC774008C456F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEF8E86C1D0FC774008C456F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF8E86D1D0FC774008C456F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF8E8711D0FC774008C456F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF8E8721D0FC774008C456F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF8E8751D0FC774008C456F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF8E8761D0FC774008C456F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF8E8781D0FC774008C456F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7317E2BEA629AAA2A37B95 /* Pods-AuaBnB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AuaBnB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AuaBnB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEF8E8791D0FC774008C456F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A2E92835A1B295D42191DA /* Pods-AuaBnB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AuaBnB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AuaBnB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF8E8601D0FC774008C456F /* Build configuration list for PBXProject "AuaBnB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF8E8751D0FC774008C456F /* Debug */,
+				CEF8E8761D0FC774008C456F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF8E8771D0FC774008C456F /* Build configuration list for PBXNativeTarget "AuaBnB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF8E8781D0FC774008C456F /* Debug */,
+				CEF8E8791D0FC774008C456F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF8E85D1D0FC774008C456F /* Project object */;
+}

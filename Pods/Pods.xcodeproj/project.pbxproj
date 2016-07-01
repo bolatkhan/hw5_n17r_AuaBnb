@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1999C6023F30ABDB3712CC48DEFE507B /* KFImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28531978F69C578C5CE1885F802D6540 /* KFImageCacheManager.swift */; };
+		1C5BB07932D041836F362CCC03CD2F7A /* WKInterfaceImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93392194047EF5C08F776CA004386F26 /* WKInterfaceImageExtensions.swift */; };
+		354EA0E842569755A33BD2A3876BBDDD /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533F0B1B603C53A4968B6008D3F2E58 /* UIImageViewExtensions.swift */; };
+		3A89FCAA10F5D57366BBBDA2D6E11388 /* KFSwiftImageLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2430E1CADF1BF75440809131BA1BBDD0 /* KFSwiftImageLoader-dummy.m */; };
+		47CF1C934F54A080A17B4C7D8884EF7F /* MKAnnotationViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC30ADC80387D6DC4F9934457E0E4B5A /* MKAnnotationViewExtensions.swift */; };
+		6A5126306036117BBD3550566880BFF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		8A1D9A078937BD03AEDA23D046A30305 /* Pods-AuaBnB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D64289BC8CB8E282AEF6A37384C1269 /* Pods-AuaBnB-dummy.m */; };
+		936B0925C2F9180935C72410630A1118 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDC06C78F3DAA2A6497FE0132FD7889 /* UIButtonExtensions.swift */; };
+		9F848FD021EEABE4C02700E9DB86DC06 /* Pods-AuaBnB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFEC05660F15ECFB51AEFB16CCF2E7FA /* Pods-AuaBnB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4E4E7E86DBC0260BE420AFD88CBDA08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E9EB979120769BE93B541078F9D7E622 /* KFSwiftImageLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D91FBF54FD4CDB18CB0AE73B7701F6C /* KFSwiftImageLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DD361A5FBC36A9E2D68A2F8D209D421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 935868B02D678B72AAD39DDD2E0FCF7D;
+			remoteInfo = KFSwiftImageLoader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0002BBE5C9B6C86D29CC1568AECC7430 /* UserService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UserService.h; path = SDK/ios/backendless/include/UserService.h; sourceTree = "<group>"; };
+		00F6286825D079CAC0D27730406453DD /* BackendlessCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessCollection.h; path = SDK/ios/backendless/include/BackendlessCollection.h; sourceTree = "<group>"; };
+		010B44C81498EC5B7DC1A8E4A61253F6 /* BECollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BECollectionView.h; path = SDK/ios/backendless/include/BECollectionView.h; sourceTree = "<group>"; };
+		01F6A3DD2DC44CBB04F962A3362F6F12 /* GeoCluster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoCluster.h; path = SDK/ios/backendless/include/GeoCluster.h; sourceTree = "<group>"; };
+		0384A4DBB397DDC81A17E3454F7C825A /* IClientSharedObjectDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IClientSharedObjectDelegate.h; path = SDK/ios/CommLibiOS/include/IClientSharedObjectDelegate.h; sourceTree = "<group>"; };
+		047372216AA9A3C9054CBDCFF823236A /* BodyParts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BodyParts.h; path = SDK/ios/backendless/include/BodyParts.h; sourceTree = "<group>"; };
+		0D06CA3880452DE6385A41DEC0CABC15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F0C2BC6BB24FDBE2498CB887D62EEC1 /* IAttributeStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAttributeStore.h; path = SDK/ios/CommLibiOS/include/IAttributeStore.h; sourceTree = "<group>"; };
+		13B08C8E3160D5984E32BD7C8813D323 /* GeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoPoint.h; path = SDK/ios/backendless/include/GeoPoint.h; sourceTree = "<group>"; };
+		1AB39841951B1C171B5E81CA52783E82 /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlashorbBinaryReader.h; path = SDK/ios/CommLibiOS/include/FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		1B335344CF8AB36A7F15F42091245F0E /* FilePermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilePermission.h; path = SDK/ios/backendless/include/FilePermission.h; sourceTree = "<group>"; };
+		1C953AD766B5F328F5FF40FC100EC0E1 /* ICacheService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICacheService.h; path = SDK/ios/backendless/include/ICacheService.h; sourceTree = "<group>"; };
+		1CD5EC118E3252520EA984B49E45E46A /* Presence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Presence.h; path = SDK/ios/backendless/include/Presence.h; sourceTree = "<group>"; };
+		1E99C1C9123C80416D96F4E77BB1FCF3 /* BinaryStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BinaryStream.h; path = SDK/ios/CommLibiOS/include/BinaryStream.h; sourceTree = "<group>"; };
+		20D614FCFDBB267F42111A6EB927EDEC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2430E1CADF1BF75440809131BA1BBDD0 /* KFSwiftImageLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KFSwiftImageLoader-dummy.m"; sourceTree = "<group>"; };
+		257368BC52961B514052F4F49B13973B /* BackendlessCachePolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessCachePolicy.h; path = SDK/ios/backendless/include/BackendlessCachePolicy.h; sourceTree = "<group>"; };
+		28531978F69C578C5CE1885F802D6540 /* KFImageCacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImageCacheManager.swift; path = KFSwiftImageLoader/KFImageCacheManager.swift; sourceTree = "<group>"; };
+		29EFF9DA2B7E373BF03FD30BCB8A3D1C /* LocationTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocationTracker.h; path = SDK/ios/backendless/include/LocationTracker.h; sourceTree = "<group>"; };
+		2B544B3EF84272D521293F22A4BD941D /* MessageStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MessageStatus.h; path = SDK/ios/backendless/include/MessageStatus.h; sourceTree = "<group>"; };
+		2C7B38F28ECAAD0A8C905DF782943D2E /* BESubscription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BESubscription.h; path = SDK/ios/backendless/include/BESubscription.h; sourceTree = "<group>"; };
+		2DE9FC43CE6A80AE53EE1A796D0B148D /* Pods-AuaBnB-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AuaBnB-resources.sh"; sourceTree = "<group>"; };
+		2F06F49CCCB76CB42A6643CF6389FE9E /* BackendlessGeoQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessGeoQuery.h; path = SDK/ios/backendless/include/BackendlessGeoQuery.h; sourceTree = "<group>"; };
+		31D4EC0207276A3674F57990F19EF55F /* KFSwiftImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KFSwiftImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2014AC1A9EB80D2F366C1F349F7971 /* AbstractProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractProperty.h; path = SDK/ios/backendless/include/AbstractProperty.h; sourceTree = "<group>"; };
+		3D8DA824233F0F9968C2C7FD280AFD3F /* Pods-AuaBnB-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AuaBnB-frameworks.sh"; sourceTree = "<group>"; };
+		3D91FBF54FD4CDB18CB0AE73B7701F6C /* KFSwiftImageLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFSwiftImageLoader-umbrella.h"; sourceTree = "<group>"; };
+		3DF3170158885294E97F0A94AA74C546 /* CacheFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CacheFactory.h; path = SDK/ios/backendless/include/CacheFactory.h; sourceTree = "<group>"; };
+		3E7566FD903BB9B7A64BCF694C25DD4C /* MemoryTicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MemoryTicker.h; path = SDK/ios/CommLibiOS/include/MemoryTicker.h; sourceTree = "<group>"; };
+		3F2AED43966AD2EF05764B7F37FABDE2 /* GeoFence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoFence.h; path = SDK/ios/backendless/include/GeoFence.h; sourceTree = "<group>"; };
+		4412C9A4BFFD276889EC8395F691B1B7 /* BackendlessUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessUser.h; path = SDK/ios/backendless/include/BackendlessUser.h; sourceTree = "<group>"; };
+		48479DA8A5844AB2757A20E89AB32F78 /* KFSwiftImageLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFSwiftImageLoader.xcconfig; sourceTree = "<group>"; };
+		4B15572D3DFD92E67A54DB4705A2CE5A /* Backendless-With-Media-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Backendless-With-Media-Bridging-Header.h"; path = "SDK/ios/backendless/include/Backendless-With-Media-Bridging-Header.h"; sourceTree = "<group>"; };
+		4CAE84B92A8DAF326A887A650093C665 /* GeoService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoService.h; path = SDK/ios/backendless/include/GeoService.h; sourceTree = "<group>"; };
+		4F1A4D3D30FB0C429E4A69D2F3D7B35C /* DeliveryOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeliveryOptions.h; path = SDK/ios/backendless/include/DeliveryOptions.h; sourceTree = "<group>"; };
+		54D3BCA553010AD9A910CAAC681CCEDB /* MessagingService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MessagingService.h; path = SDK/ios/backendless/include/MessagingService.h; sourceTree = "<group>"; };
+		5585A0559311E5C4721BF6969E794B46 /* AtomicCountersFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AtomicCountersFactory.h; path = SDK/ios/backendless/include/AtomicCountersFactory.h; sourceTree = "<group>"; };
+		55A2B02409014A3B861C26976246BA8E /* IAtomicCounters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAtomicCounters.h; path = SDK/ios/backendless/include/IAtomicCounters.h; sourceTree = "<group>"; };
+		5C74ECAE8F7670D37E8F734115C9F9CB /* Pods-AuaBnB-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AuaBnB-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D64289BC8CB8E282AEF6A37384C1269 /* Pods-AuaBnB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AuaBnB-dummy.m"; sourceTree = "<group>"; };
+		6465F4D67AA0409B22565B4BCADAC9FB /* GeoCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoCategory.h; path = SDK/ios/backendless/include/GeoCategory.h; sourceTree = "<group>"; };
+		65DC2B93B906EBD0096D422DE4F5AD2D /* UserProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UserProperty.h; path = SDK/ios/backendless/include/UserProperty.h; sourceTree = "<group>"; };
+		6C1D60521A57FB10D8222EA9A14BA303 /* PublishOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PublishOptions.h; path = SDK/ios/backendless/include/PublishOptions.h; sourceTree = "<group>"; };
+		6C4B1A7D5E2FAA5EAA37FE98F4567762 /* DeviceRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceRegistration.h; path = SDK/ios/backendless/include/DeviceRegistration.h; sourceTree = "<group>"; };
+		6C8D09B50ADB8D50C44345189B50FE56 /* BackendlessEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessEntity.h; path = SDK/ios/backendless/include/BackendlessEntity.h; sourceTree = "<group>"; };
+		6E0645B3E6D0323BF13DE4966685EC7F /* Pods-AuaBnB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AuaBnB.debug.xcconfig"; sourceTree = "<group>"; };
+		73B98BF8A5F23B2F1C9797E7406AE906 /* Pods_AuaBnB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuaBnB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7533F0B1B603C53A4968B6008D3F2E58 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtensions.swift; path = KFSwiftImageLoader/UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		7AB5FB33916082A8ED788D63F97324C0 /* BackendlessBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessBeacon.h; path = SDK/ios/backendless/include/BackendlessBeacon.h; sourceTree = "<group>"; };
+		7D5371AB4DA830698DBE2331E89C3DCB /* BackendlessSimpleQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessSimpleQuery.h; path = SDK/ios/backendless/include/BackendlessSimpleQuery.h; sourceTree = "<group>"; };
+		7F6A261E98CD7DD0848A32828D27E73D /* RTMPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTMPClient.h; path = SDK/ios/CommLibiOS/include/RTMPClient.h; sourceTree = "<group>"; };
+		807719CC781D92F307C3B91D62B545B4 /* AbstractQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractQuery.h; path = SDK/ios/backendless/include/AbstractQuery.h; sourceTree = "<group>"; };
+		83B8C453FDDE2FB04809EB578D832995 /* IPresenceListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPresenceListener.h; path = SDK/ios/backendless/include/IPresenceListener.h; sourceTree = "<group>"; };
+		8A11EC14487F1934BEBF631635E681E4 /* IPendingServiceCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPendingServiceCallback.h; path = SDK/ios/CommLibiOS/include/IPendingServiceCallback.h; sourceTree = "<group>"; };
+		8BAF6F88D5C68E41C4A5E31412570F3D /* BEMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMapView.h; path = SDK/ios/backendless/include/BEMapView.h; sourceTree = "<group>"; };
+		8D25C27546327ABF938BE779E1B0E5E7 /* BETableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BETableView.h; path = SDK/ios/backendless/include/BETableView.h; sourceTree = "<group>"; };
+		8D8F3ACB3684F7D87DCEC0799DE644F4 /* ObjectProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjectProperty.h; path = SDK/ios/backendless/include/ObjectProperty.h; sourceTree = "<group>"; };
+		903FC27FEE99E7B28B4EE65D0AB3EED3 /* Pods-AuaBnB-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AuaBnB-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90934BEC0D0757C6332D4BB5210737BB /* IDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDataStore.h; path = SDK/ios/backendless/include/IDataStore.h; sourceTree = "<group>"; };
+		90E6EDD41D901E8EB3F6D37B56CE3756 /* QueryOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QueryOptions.h; path = SDK/ios/backendless/include/QueryOptions.h; sourceTree = "<group>"; };
+		910466B0DD8407CB5618471B8577EE5B /* Types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Types.h; path = SDK/ios/CommLibiOS/include/Types.h; sourceTree = "<group>"; };
+		93392194047EF5C08F776CA004386F26 /* WKInterfaceImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKInterfaceImageExtensions.swift; path = KFSwiftImageLoader/WKInterfaceImageExtensions.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99CC64D41D7771B688DF4CE562212173 /* Pods-AuaBnB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AuaBnB.modulemap"; sourceTree = "<group>"; };
+		9B675E9E6E36779B4F4C3CC853FAF117 /* IServiceCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IServiceCall.h; path = SDK/ios/CommLibiOS/include/IServiceCall.h; sourceTree = "<group>"; };
+		9B6E0E75AA773E8B60EAB3AEFC3A3B72 /* Logger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = SDK/ios/backendless/include/Logger.h; sourceTree = "<group>"; };
+		9D4B9542DA7DA8CC42F238D6A09D82C3 /* DataPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataPermission.h; path = SDK/ios/backendless/include/DataPermission.h; sourceTree = "<group>"; };
+		A7D7070422C0265E6DEFD2B321075572 /* KFSwiftImageLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KFSwiftImageLoader.modulemap; sourceTree = "<group>"; };
+		A8213D8D4019C196C7790CB02CCC78D3 /* DataStoreFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataStoreFactory.h; path = SDK/ios/backendless/include/DataStoreFactory.h; sourceTree = "<group>"; };
+		ADBBE2D3D908D555273400C2E236E3EE /* ProtectedBackendlessGeoQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProtectedBackendlessGeoQuery.h; path = SDK/ios/backendless/include/ProtectedBackendlessGeoQuery.h; sourceTree = "<group>"; };
+		AE7F4D9E7CEF8C85F84F40E82C3C2BBD /* BackendlessFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessFile.h; path = SDK/ios/backendless/include/BackendlessFile.h; sourceTree = "<group>"; };
+		B05D5041E81F1D8AF0F98A0DF645E607 /* Events.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Events.h; path = SDK/ios/backendless/include/Events.h; sourceTree = "<group>"; };
+		B1CB6820354B7282F370AC1AD52DFAF6 /* ICallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICallback.h; path = SDK/ios/backendless/include/ICallback.h; sourceTree = "<group>"; };
+		B9C147E6BE9C25B8743B7EF569C64227 /* Pods-AuaBnB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AuaBnB.release.xcconfig"; sourceTree = "<group>"; };
+		BF738D91A7DB8D8A9465565E9DCFA69D /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlashorbBinaryWriter.h; path = SDK/ios/CommLibiOS/include/FlashorbBinaryWriter.h; sourceTree = "<group>"; };
+		C4E959989233102F101FAB8B3D40D144 /* AtomicCounters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AtomicCounters.h; path = SDK/ios/backendless/include/AtomicCounters.h; sourceTree = "<group>"; };
+		C64D66A0A936912F90561D8900EC9EFC /* SubscriptionOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubscriptionOptions.h; path = SDK/ios/backendless/include/SubscriptionOptions.h; sourceTree = "<group>"; };
+		C70B9710D4DFAC8160882D2A501E5C10 /* BEFileInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEFileInfo.h; path = SDK/ios/backendless/include/BEFileInfo.h; sourceTree = "<group>"; };
+		C82BFBA0FB2ADCF226906F7B49B159E5 /* IPersistable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPersistable.h; path = SDK/ios/CommLibiOS/include/IPersistable.h; sourceTree = "<group>"; };
+		C8A69E660741AA2D661F15260DB539B3 /* BEAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEAnnotation.h; path = SDK/ios/backendless/include/BEAnnotation.h; sourceTree = "<group>"; };
+		CD12AAF6D7629C33138F9452FFA1454A /* DEBUG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DEBUG.h; path = SDK/ios/CommLibiOS/include/DEBUG.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFEC05660F15ECFB51AEFB16CCF2E7FA /* Pods-AuaBnB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AuaBnB-umbrella.h"; sourceTree = "<group>"; };
+		D11C1D6C6D7CD0D4F6CE7DEC421BB774 /* Backendless.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Backendless.h; path = SDK/ios/backendless/include/Backendless.h; sourceTree = "<group>"; };
+		D218D046FD027D58D4EBB77073202404 /* BackendlessDataQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessDataQuery.h; path = SDK/ios/backendless/include/BackendlessDataQuery.h; sourceTree = "<group>"; };
+		D4DE34533940350A04B92D7ABE696F87 /* CacheService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CacheService.h; path = SDK/ios/backendless/include/CacheService.h; sourceTree = "<group>"; };
+		D5191CDAA85C6816930C942DADBFFA9E /* ISharedObjectListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISharedObjectListener.h; path = SDK/ios/CommLibiOS/include/ISharedObjectListener.h; sourceTree = "<group>"; };
+		D6A52CC0CC1319648A1E3C307B23E3EC /* Responder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Responder.h; path = SDK/ios/CommLibiOS/include/Responder.h; sourceTree = "<group>"; };
+		D8B25907BE79F43A2480AED704F87CD7 /* KFSwiftImageLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFSwiftImageLoader-prefix.pch"; sourceTree = "<group>"; };
+		DA1152E618F91A930D030CC5D200A0B3 /* Logging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Logging.h; path = SDK/ios/backendless/include/Logging.h; sourceTree = "<group>"; };
+		E1B2DA94EB4FBD33CDC7D647481016B7 /* Message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Message.h; path = SDK/ios/backendless/include/Message.h; sourceTree = "<group>"; };
+		E7A74C299BEAE366D9B8C1A640A5B0F3 /* IClientSharedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IClientSharedObject.h; path = SDK/ios/CommLibiOS/include/IClientSharedObject.h; sourceTree = "<group>"; };
+		E7BFBD7FF597FA1D8EC9CAA195BA111B /* PersistenceService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PersistenceService.h; path = SDK/ios/backendless/include/PersistenceService.h; sourceTree = "<group>"; };
+		EC1044CE3F98CFD463361844DA1D4D42 /* BackendlessCacheProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessCacheProtocol.h; path = SDK/ios/backendless/include/BackendlessCacheProtocol.h; sourceTree = "<group>"; };
+		ECC5DE64E29E99AEA4C95348C366BFE1 /* Backendless-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Backendless-Bridging-Header.h"; path = "SDK/ios/backendless/include/Backendless-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED52A789DEF5BC924B826D4C5022A169 /* WeborbClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeborbClient.h; path = SDK/ios/CommLibiOS/include/WeborbClient.h; sourceTree = "<group>"; };
+		EDDC06C78F3DAA2A6497FE0132FD7889 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = KFSwiftImageLoader/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		F1DAA468EA5D7CB1B74D7D0B123BC961 /* CustomService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomService.h; path = SDK/ios/backendless/include/CustomService.h; sourceTree = "<group>"; };
+		F48853577E8B949DD66FF6205D43E1B5 /* BinaryCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BinaryCodec.h; path = SDK/ios/CommLibiOS/include/BinaryCodec.h; sourceTree = "<group>"; };
+		F8D7F5E4B1B6B9AC84EDFD39C5A7320A /* IRTMProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRTMProtocol.h; path = SDK/ios/CommLibiOS/include/IRTMProtocol.h; sourceTree = "<group>"; };
+		F9AD42E0927C4B989818B4076C185F12 /* HashMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HashMap.h; path = SDK/ios/backendless/include/HashMap.h; sourceTree = "<group>"; };
+		FC30ADC80387D6DC4F9934457E0E4B5A /* MKAnnotationViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKAnnotationViewExtensions.swift; path = KFSwiftImageLoader/MKAnnotationViewExtensions.swift; sourceTree = "<group>"; };
+		FF5B1EC6075F41C680100C53C1CF8DC4 /* AMFSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMFSerializer.h; path = SDK/ios/CommLibiOS/include/AMFSerializer.h; sourceTree = "<group>"; };
+		FFB9A17605F9E80616A707FB2CD897B2 /* FileService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FileService.h; path = SDK/ios/backendless/include/FileService.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410031ADCA514E5A405FE63C9B1262CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E4E7E86DBC0260BE420AFD88CBDA08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA7AC659F253A0D3B4C23CDFB4FE8BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5126306036117BBD3550566880BFF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E2574A0645F29F15E91D6B21E86CCB /* KFSwiftImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				28531978F69C578C5CE1885F802D6540 /* KFImageCacheManager.swift */,
+				FC30ADC80387D6DC4F9934457E0E4B5A /* MKAnnotationViewExtensions.swift */,
+				EDDC06C78F3DAA2A6497FE0132FD7889 /* UIButtonExtensions.swift */,
+				7533F0B1B603C53A4968B6008D3F2E58 /* UIImageViewExtensions.swift */,
+				93392194047EF5C08F776CA004386F26 /* WKInterfaceImageExtensions.swift */,
+				4ACA5C7C98597DE5544928FE0692D0DD /* Support Files */,
+			);
+			path = KFSwiftImageLoader;
+			sourceTree = "<group>";
+		};
+		1DB4C707FB1D08C4ACE7C7BCA685A612 /* Pods-AuaBnB */ = {
+			isa = PBXGroup;
+			children = (
+				20D614FCFDBB267F42111A6EB927EDEC /* Info.plist */,
+				99CC64D41D7771B688DF4CE562212173 /* Pods-AuaBnB.modulemap */,
+				903FC27FEE99E7B28B4EE65D0AB3EED3 /* Pods-AuaBnB-acknowledgements.markdown */,
+				5C74ECAE8F7670D37E8F734115C9F9CB /* Pods-AuaBnB-acknowledgements.plist */,
+				5D64289BC8CB8E282AEF6A37384C1269 /* Pods-AuaBnB-dummy.m */,
+				3D8DA824233F0F9968C2C7FD280AFD3F /* Pods-AuaBnB-frameworks.sh */,
+				2DE9FC43CE6A80AE53EE1A796D0B148D /* Pods-AuaBnB-resources.sh */,
+				CFEC05660F15ECFB51AEFB16CCF2E7FA /* Pods-AuaBnB-umbrella.h */,
+				6E0645B3E6D0323BF13DE4966685EC7F /* Pods-AuaBnB.debug.xcconfig */,
+				B9C147E6BE9C25B8743B7EF569C64227 /* Pods-AuaBnB.release.xcconfig */,
+			);
+			name = "Pods-AuaBnB";
+			path = "Target Support Files/Pods-AuaBnB";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4ACA5C7C98597DE5544928FE0692D0DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D06CA3880452DE6385A41DEC0CABC15 /* Info.plist */,
+				A7D7070422C0265E6DEFD2B321075572 /* KFSwiftImageLoader.modulemap */,
+				48479DA8A5844AB2757A20E89AB32F78 /* KFSwiftImageLoader.xcconfig */,
+				2430E1CADF1BF75440809131BA1BBDD0 /* KFSwiftImageLoader-dummy.m */,
+				D8B25907BE79F43A2480AED704F87CD7 /* KFSwiftImageLoader-prefix.pch */,
+				3D91FBF54FD4CDB18CB0AE73B7701F6C /* KFSwiftImageLoader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KFSwiftImageLoader";
+			sourceTree = "<group>";
+		};
+		6252542470F31BFCAC9FB281FB5DAF25 /* Backendless */ = {
+			isa = PBXGroup;
+			children = (
+				3B2014AC1A9EB80D2F366C1F349F7971 /* AbstractProperty.h */,
+				807719CC781D92F307C3B91D62B545B4 /* AbstractQuery.h */,
+				FF5B1EC6075F41C680100C53C1CF8DC4 /* AMFSerializer.h */,
+				C4E959989233102F101FAB8B3D40D144 /* AtomicCounters.h */,
+				5585A0559311E5C4721BF6969E794B46 /* AtomicCountersFactory.h */,
+				D11C1D6C6D7CD0D4F6CE7DEC421BB774 /* Backendless.h */,
+				ECC5DE64E29E99AEA4C95348C366BFE1 /* Backendless-Bridging-Header.h */,
+				4B15572D3DFD92E67A54DB4705A2CE5A /* Backendless-With-Media-Bridging-Header.h */,
+				7AB5FB33916082A8ED788D63F97324C0 /* BackendlessBeacon.h */,
+				257368BC52961B514052F4F49B13973B /* BackendlessCachePolicy.h */,
+				EC1044CE3F98CFD463361844DA1D4D42 /* BackendlessCacheProtocol.h */,
+				00F6286825D079CAC0D27730406453DD /* BackendlessCollection.h */,
+				D218D046FD027D58D4EBB77073202404 /* BackendlessDataQuery.h */,
+				6C8D09B50ADB8D50C44345189B50FE56 /* BackendlessEntity.h */,
+				AE7F4D9E7CEF8C85F84F40E82C3C2BBD /* BackendlessFile.h */,
+				2F06F49CCCB76CB42A6643CF6389FE9E /* BackendlessGeoQuery.h */,
+				7D5371AB4DA830698DBE2331E89C3DCB /* BackendlessSimpleQuery.h */,
+				4412C9A4BFFD276889EC8395F691B1B7 /* BackendlessUser.h */,
+				C8A69E660741AA2D661F15260DB539B3 /* BEAnnotation.h */,
+				010B44C81498EC5B7DC1A8E4A61253F6 /* BECollectionView.h */,
+				C70B9710D4DFAC8160882D2A501E5C10 /* BEFileInfo.h */,
+				8BAF6F88D5C68E41C4A5E31412570F3D /* BEMapView.h */,
+				2C7B38F28ECAAD0A8C905DF782943D2E /* BESubscription.h */,
+				8D25C27546327ABF938BE779E1B0E5E7 /* BETableView.h */,
+				F48853577E8B949DD66FF6205D43E1B5 /* BinaryCodec.h */,
+				1E99C1C9123C80416D96F4E77BB1FCF3 /* BinaryStream.h */,
+				047372216AA9A3C9054CBDCFF823236A /* BodyParts.h */,
+				3DF3170158885294E97F0A94AA74C546 /* CacheFactory.h */,
+				D4DE34533940350A04B92D7ABE696F87 /* CacheService.h */,
+				F1DAA468EA5D7CB1B74D7D0B123BC961 /* CustomService.h */,
+				9D4B9542DA7DA8CC42F238D6A09D82C3 /* DataPermission.h */,
+				A8213D8D4019C196C7790CB02CCC78D3 /* DataStoreFactory.h */,
+				CD12AAF6D7629C33138F9452FFA1454A /* DEBUG.h */,
+				4F1A4D3D30FB0C429E4A69D2F3D7B35C /* DeliveryOptions.h */,
+				6C4B1A7D5E2FAA5EAA37FE98F4567762 /* DeviceRegistration.h */,
+				B05D5041E81F1D8AF0F98A0DF645E607 /* Events.h */,
+				1B335344CF8AB36A7F15F42091245F0E /* FilePermission.h */,
+				FFB9A17605F9E80616A707FB2CD897B2 /* FileService.h */,
+				1AB39841951B1C171B5E81CA52783E82 /* FlashorbBinaryReader.h */,
+				BF738D91A7DB8D8A9465565E9DCFA69D /* FlashorbBinaryWriter.h */,
+				6465F4D67AA0409B22565B4BCADAC9FB /* GeoCategory.h */,
+				01F6A3DD2DC44CBB04F962A3362F6F12 /* GeoCluster.h */,
+				3F2AED43966AD2EF05764B7F37FABDE2 /* GeoFence.h */,
+				13B08C8E3160D5984E32BD7C8813D323 /* GeoPoint.h */,
+				4CAE84B92A8DAF326A887A650093C665 /* GeoService.h */,
+				F9AD42E0927C4B989818B4076C185F12 /* HashMap.h */,
+				55A2B02409014A3B861C26976246BA8E /* IAtomicCounters.h */,
+				0F0C2BC6BB24FDBE2498CB887D62EEC1 /* IAttributeStore.h */,
+				1C953AD766B5F328F5FF40FC100EC0E1 /* ICacheService.h */,
+				B1CB6820354B7282F370AC1AD52DFAF6 /* ICallback.h */,
+				E7A74C299BEAE366D9B8C1A640A5B0F3 /* IClientSharedObject.h */,
+				0384A4DBB397DDC81A17E3454F7C825A /* IClientSharedObjectDelegate.h */,
+				90934BEC0D0757C6332D4BB5210737BB /* IDataStore.h */,
+				8A11EC14487F1934BEBF631635E681E4 /* IPendingServiceCallback.h */,
+				C82BFBA0FB2ADCF226906F7B49B159E5 /* IPersistable.h */,
+				83B8C453FDDE2FB04809EB578D832995 /* IPresenceListener.h */,
+				F8D7F5E4B1B6B9AC84EDFD39C5A7320A /* IRTMProtocol.h */,
+				9B675E9E6E36779B4F4C3CC853FAF117 /* IServiceCall.h */,
+				D5191CDAA85C6816930C942DADBFFA9E /* ISharedObjectListener.h */,
+				29EFF9DA2B7E373BF03FD30BCB8A3D1C /* LocationTracker.h */,
+				9B6E0E75AA773E8B60EAB3AEFC3A3B72 /* Logger.h */,
+				DA1152E618F91A930D030CC5D200A0B3 /* Logging.h */,
+				3E7566FD903BB9B7A64BCF694C25DD4C /* MemoryTicker.h */,
+				E1B2DA94EB4FBD33CDC7D647481016B7 /* Message.h */,
+				2B544B3EF84272D521293F22A4BD941D /* MessageStatus.h */,
+				54D3BCA553010AD9A910CAAC681CCEDB /* MessagingService.h */,
+				8D8F3ACB3684F7D87DCEC0799DE644F4 /* ObjectProperty.h */,
+				E7BFBD7FF597FA1D8EC9CAA195BA111B /* PersistenceService.h */,
+				1CD5EC118E3252520EA984B49E45E46A /* Presence.h */,
+				ADBBE2D3D908D555273400C2E236E3EE /* ProtectedBackendlessGeoQuery.h */,
+				6C1D60521A57FB10D8222EA9A14BA303 /* PublishOptions.h */,
+				90E6EDD41D901E8EB3F6D37B56CE3756 /* QueryOptions.h */,
+				D6A52CC0CC1319648A1E3C307B23E3EC /* Responder.h */,
+				7F6A261E98CD7DD0848A32828D27E73D /* RTMPClient.h */,
+				C64D66A0A936912F90561D8900EC9EFC /* SubscriptionOptions.h */,
+				910466B0DD8407CB5618471B8577EE5B /* Types.h */,
+				65DC2B93B906EBD0096D422DE4F5AD2D /* UserProperty.h */,
+				0002BBE5C9B6C86D29CC1568AECC7430 /* UserService.h */,
+				ED52A789DEF5BC924B826D4C5022A169 /* WeborbClient.h */,
+			);
+			path = Backendless;
+			sourceTree = "<group>";
+		};
+		69AA6991A3D6E8E25BB2FC1A2EDC44B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6252542470F31BFCAC9FB281FB5DAF25 /* Backendless */,
+				18E2574A0645F29F15E91D6B21E86CCB /* KFSwiftImageLoader */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				69AA6991A3D6E8E25BB2FC1A2EDC44B3 /* Pods */,
+				DF7118B3BC410D63D76B1996877FFB01 /* Products */,
+				8B10EB96244DF640E81543A30F8A3D99 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B10EB96244DF640E81543A30F8A3D99 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DB4C707FB1D08C4ACE7C7BCA685A612 /* Pods-AuaBnB */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF7118B3BC410D63D76B1996877FFB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31D4EC0207276A3674F57990F19EF55F /* KFSwiftImageLoader.framework */,
+				73B98BF8A5F23B2F1C9797E7406AE906 /* Pods_AuaBnB.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		019C044C06060E586834BB747DF9FECB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F848FD021EEABE4C02700E9DB86DC06 /* Pods-AuaBnB-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7AAFB3C1B2E07F5067AC21D51C877C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EB979120769BE93B541078F9D7E622 /* KFSwiftImageLoader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		935868B02D678B72AAD39DDD2E0FCF7D /* KFSwiftImageLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B868FB3A40A656D456F58119F42534 /* Build configuration list for PBXNativeTarget "KFSwiftImageLoader" */;
+			buildPhases = (
+				11C88C605A2EAFDE05134774FA26B443 /* Sources */,
+				7FA7AC659F253A0D3B4C23CDFB4FE8BF /* Frameworks */,
+				BB7AAFB3C1B2E07F5067AC21D51C877C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KFSwiftImageLoader;
+			productName = KFSwiftImageLoader;
+			productReference = 31D4EC0207276A3674F57990F19EF55F /* KFSwiftImageLoader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F925051CC0580A957748669F5DF0FCF7 /* Pods-AuaBnB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51874B3761AFD3EF7887AF13B0AB13D6 /* Build configuration list for PBXNativeTarget "Pods-AuaBnB" */;
+			buildPhases = (
+				5D03B0DA7B3AFC46149D6CB2D2C6F274 /* Sources */,
+				410031ADCA514E5A405FE63C9B1262CF /* Frameworks */,
+				019C044C06060E586834BB747DF9FECB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80A54971D394E555DE9843311C794EE9 /* PBXTargetDependency */,
+			);
+			name = "Pods-AuaBnB";
+			productName = "Pods-AuaBnB";
+			productReference = 73B98BF8A5F23B2F1C9797E7406AE906 /* Pods_AuaBnB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DF7118B3BC410D63D76B1996877FFB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				935868B02D678B72AAD39DDD2E0FCF7D /* KFSwiftImageLoader */,
+				F925051CC0580A957748669F5DF0FCF7 /* Pods-AuaBnB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11C88C605A2EAFDE05134774FA26B443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1999C6023F30ABDB3712CC48DEFE507B /* KFImageCacheManager.swift in Sources */,
+				3A89FCAA10F5D57366BBBDA2D6E11388 /* KFSwiftImageLoader-dummy.m in Sources */,
+				47CF1C934F54A080A17B4C7D8884EF7F /* MKAnnotationViewExtensions.swift in Sources */,
+				936B0925C2F9180935C72410630A1118 /* UIButtonExtensions.swift in Sources */,
+				354EA0E842569755A33BD2A3876BBDDD /* UIImageViewExtensions.swift in Sources */,
+				1C5BB07932D041836F362CCC03CD2F7A /* WKInterfaceImageExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D03B0DA7B3AFC46149D6CB2D2C6F274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1D9A078937BD03AEDA23D046A30305 /* Pods-AuaBnB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80A54971D394E555DE9843311C794EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFSwiftImageLoader;
+			target = 935868B02D678B72AAD39DDD2E0FCF7D /* KFSwiftImageLoader */;
+			targetProxy = 2DD361A5FBC36A9E2D68A2F8D209D421 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2588EA364419D831347938453F4F6DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4E12CE88891C9234334EFBD74A106398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48479DA8A5844AB2757A20E89AB32F78 /* KFSwiftImageLoader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KFSwiftImageLoader/KFSwiftImageLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KFSwiftImageLoader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KFSwiftImageLoader/KFSwiftImageLoader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KFSwiftImageLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61AD4929AC3440F8BFA0595E8DCD90C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8456F5D7CB394D6B434BEB1D254C7F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C147E6BE9C25B8743B7EF569C64227 /* Pods-AuaBnB.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AuaBnB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AuaBnB/Pods-AuaBnB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AuaBnB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88F0E05581F981B713C3F683129D470F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0645B3E6D0323BF13DE4966685EC7F /* Pods-AuaBnB.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AuaBnB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AuaBnB/Pods-AuaBnB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AuaBnB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCCED3CAFFF36A3D4FDF90B9EB16552A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48479DA8A5844AB2757A20E89AB32F78 /* KFSwiftImageLoader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KFSwiftImageLoader/KFSwiftImageLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KFSwiftImageLoader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KFSwiftImageLoader/KFSwiftImageLoader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KFSwiftImageLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2588EA364419D831347938453F4F6DE5 /* Debug */,
+				61AD4929AC3440F8BFA0595E8DCD90C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51874B3761AFD3EF7887AF13B0AB13D6 /* Build configuration list for PBXNativeTarget "Pods-AuaBnB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F0E05581F981B713C3F683129D470F /* Debug */,
+				8456F5D7CB394D6B434BEB1D254C7F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B868FB3A40A656D456F58119F42534 /* Build configuration list for PBXNativeTarget "KFSwiftImageLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E12CE88891C9234334EFBD74A106398 /* Debug */,
+				CCCED3CAFFF36A3D4FDF90B9EB16552A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
